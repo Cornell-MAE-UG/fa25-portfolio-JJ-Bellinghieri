@@ -3,7 +3,7 @@ layout: project
 title: Design of a lifiting mechanism
 description: Class project to design a mechanism to lift a maximum weight to the highest height
 technologies: [Google sheets]
-image: \assets\images\Statics-2020-portfolio-project-43.jpg
+image: /assets/images/Statics-2020-portfolio-project-43.jpg
 ---
 
 
