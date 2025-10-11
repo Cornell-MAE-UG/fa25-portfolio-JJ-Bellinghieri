@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets\Jab922_Resume.pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "\assets\Jab922_Resume.pdf" | relative_url }}) in PDF format.
 
 
 **Email:** [jab922@cornell.edu](mailto:jab922@cornell.edu) | | | **Phone:** +610 299 6751
