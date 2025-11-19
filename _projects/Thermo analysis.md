@@ -1,13 +1,13 @@
 ---
 layout: project
 title: Analysis of a thermodynamic system
-description: Class project to design a mechanism to lift a maximum weight to the highest height
-technologies: [Google sheets]
+description: Class project to analyze a scram jet engine from a themrodynamic perspective
+technologies: []
 image: /assets/images/Statics-2020-portfolio-project-43.jpg
 ---
 
 
-As part of a class project I designed a system to lift a maximum load to a maximum height.
+As part of a class project I analyzed a scram Jet engine.
 
 
 This is how I solved the problem:
