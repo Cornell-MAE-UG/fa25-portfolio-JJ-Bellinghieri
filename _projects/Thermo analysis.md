@@ -29,19 +29,19 @@ Next, we have decided to model that in an ideal ramjet, air flows through the di
 
 In both a Brayton Cycle combustor and in a ramjet combustor, ideally air is heated up at constant pressure. We saw the mass flow of fuel into the combustor is much smaller than the mass flow of air in, and we do not know much about the state of entering fuel. Because of this, we choose to model the combustor as a heat exhanger that raises the temperature of the air. This allows us to disregard entropy generation from fuel and air mixing as well. A further simplifying assumption we will make for our ideal ramjet cycle is that it is well insulated from the outside enviornment, and does not reject any heat via convection to the atmosphere. 
 
-![Nozzle System Diagram]({{ "/assets/images/nozzle-diagram.jpeg" | relative_url }}){: .inline-image-r style="width: 300px"}
+![Nozzle System Diagram]({{ "/assets/images/CDNOZ.jpg" | relative_url }}){: .inline-image-r style="width: 300px"}
 Finally, in an ideal converging-diverging nozzle, air flows through isentropically as well. We treat it adiabatically and having no work transfer, and disregard any irreversibilities stemming from how air reaches Mach 1 in the throat and expands supersonically in the diverging section. 
 
 Our model of a ramjet is these three devices in succession.
-![Diffuser system diagram]({{ "/assets/images/system.jpeg" | relative_url }}){: .inline-image-r style="width: 500px"}
+![system diagram]({{ "/assets/images/SysDi.jpg" | relative_url }}){: .inline-image-r style="width: 500px"}
 
 ### Solving for Thrust
-![Energy balance]({{ "assets/images/IMG_FF44524BE871-1.jpeg" | relative_url }}){: .inline-image-r style="width: 300px"}
+![Energy balance]({{ "assets/images/EBalance.jpg" | relative_url }}){: .inline-image-r style="width: 300px"}
 Our goal for our analysis is to find an expression for the thrust produced by a ramjet engine with given inlet air conditions, the heat transferred into the air from combustion per time, and the outlet pressure from the nozzle. We start with a control volume energy balance of the entire system. We maintain our assumptions of no work, no change in potential energy, steady state, air is an ideal gas, and the only heat transfer comes of our heat exchanger model of the combustor. We solve for the exit velocity, and use the ideal gas property that change in specific enthalpy is equal to the specific heat with constant pressure times the change in temperature. 
 
-![isentropic equation]({{ "assets/images/IMG_66E6BE82ADA6-1.jpeg" | relative_url }}){: .inline-image-r style="width: 300px"}
+![isentropic equation]({{ "assets/images/IsenEQ.jpg" | relative_url }}){: .inline-image-r style="width: 300px"}
 Next, we use an ideal gas isentropic relationship involving the ratios of temperature and pressure to substitute out the exit temperature. We also use the equation for mass flow to substitute in. This gives us an expression for the outlet velocity we can substitute into the thrust equation.
-![thrust equation substitution]({{ "assets/images/IMG_13A25129DFC8-1.jpeg" | relative_url }}){: .inline-image-r style="width: 300px"}
+![thrust equation substitution]({{ "assets/images/ThrustEQ.jpg" | relative_url }}){: .inline-image-r style="width: 300px"}
 
 ### Changing Conditions
 The main way to affect a ramjet's performance is by altering the speed at which air flows into the engine. This affects the extent to which the air is compressed for use in the combustion chamber. Designing with this in mind is very important because under Mach 0.5, ramjets generate practically zero thrust. Another way to change performance and the complexity of the system is by operating the combustion chamber with either solid or liquid fuel. Operating with liquid fuel increases the complexity, requiring the use of a fuel pump, but allows changes in the amount of fuel provided, unlike solid fuel, where the amount of fuel provided remains constant. We can also modify the geometry of the nozzle and diffuser to change the velocities and pressures of the air as it moves through the system. Modifying the geometry of the diffuser can help to mitigate some of the problems that arise with changes in the velocity. Specifically, inlet buzz, which occurs when the shockwave moves out of the engine housing, causing critical failure.
