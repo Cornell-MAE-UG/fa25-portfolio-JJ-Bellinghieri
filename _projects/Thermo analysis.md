@@ -17,7 +17,7 @@ The now compressed air reaches the combustor at subsonic speeds after exiting th
 
 ![Nozzle qualitative diagram]({{ "/assets/images/cv-nozzle.jpg" | relative_url }}){: .inline-image-l style="width: 350px"}
 ![Thrust Equation]({{ "/assets/images/thrust-eqn.jpg" | relative_url }}){: .inline-image-l style="width: 300px"}
-Finally, the hot, high pressure air reaches a converging-diverging nozzle, where it is accelerated above air's inlet speed. In the first part of the CV-nozzle, the cross sectional area decreases, and air velocity increases to maintain constant mass flow rate. If the air traveling through a CV nozzle has sufficient pressure and mass flow rate, as it does in supersonic operation of a ramjet, air reaches the speed of sound at the nozzle's throat, where area is lowest. The CV nozzle then increases in area, and the air, now moving at Mach 1, expands quickly and velocity rises supersonically above the original inlet speed. This is accompanied by a decrease in pressure. The increase in exit velocity above inlet velocity creates thrust, which we can model with the thrust equation.
+Finally, the hot, high pressure air reaches a converging-diverging nozzle, where it is accelerated above air's inlet speed. In the first part of the CD-nozzle, the cross sectional area decreases, and air velocity increases to maintain constant mass flow rate. If the air traveling through a CD nozzle has sufficient pressure and mass flow rate, as it does in supersonic operation of a ramjet, air reaches the speed of sound at the nozzle's throat, where area is lowest. The CD nozzle then increases in area, and the air, now moving at Mach 1, expands quickly and velocity rises supersonically above the original inlet speed. This is accompanied by a decrease in pressure. The increase in exit velocity above inlet velocity creates thrust, which we can model with the thrust equation.
 
 
 
@@ -29,22 +29,19 @@ Next, we have decided to model that in an ideal ramjet, air flows through the di
 
 In both a Brayton Cycle combustor and in a ramjet combustor, ideally air is heated up at constant pressure. We saw the mass flow of fuel into the combustor is much smaller than the mass flow of air in, and we do not know much about the state of entering fuel. Because of this, we choose to model the combustor as a heat exhanger that raises the temperature of the air. This allows us to disregard entropy generation from fuel and air mixing as well. A further simplifying assumption we will make for our ideal ramjet cycle is that it is well insulated from the outside enviornment, and does not reject any heat via convection to the atmosphere. 
 
-Finally, in an ideal converging-diverging nozzle, air flows through isentropically as well. We treat it adiabatically and having no work transfer, and disregard any irreversibilities stemming from how air reaches Mach 1 in the throat and expands supersonically in the diverging section. Finally, under the assumption of a reversible ramjet cycle, we assume the air expands so that the exit pressure from the nozzle is equal to the inlet pressure of air into the engine.
+![Nozzle System Diagram]({{ "/assets/images/nozzle-diagram.jpeg" | relative_url }}){: .inline-image-r style="width: 300px"}
+Finally, in an ideal converging-diverging nozzle, air flows through isentropically as well. We treat it adiabatically and having no work transfer, and disregard any irreversibilities stemming from how air reaches Mach 1 in the throat and expands supersonically in the diverging section. 
 
+Our model of a ramjet is these three devices in succession.
+![Diffuser system diagram]({{ "/assets/images/system.jpeg" | relative_url }}){: .inline-image-r style="width: 500px"}
 
-Important things to include:
-"Ideal" Ramjet - assumptions, diagrams, energy and mass balances, T s diagram, thrust equation, and calculations under an arbitrary reasonable operating conditions 
+### Solving for Thrust
+![Energy balance]({{ "assets/images/IMG_FF44524BE871-1.jpeg" | relative_url }}){: .inline-image-r style="width: 300px"}
+Our goal for our analysis is to find an expression for the thrust produced by a ramjet engine with given inlet air conditions, the heat transferred into the air from combustion per time, and the outlet pressure from the nozzle. We start with a control volume energy balance of the entire system. We maintain our assumptions of no work, no change in potential energy, steady state, air is an ideal gas, and the only heat transfer comes of our heat exchanger model of the combustor. We solve for the exit velocity, and use the ideal gas property that change in specific enthalpy is equal to the specific heat with constant pressure times the change in temperature. 
 
-We talk about how it is affected at low speeds and how we get no change in velocity and no thrust
-Also the general limitations and drawbacks of a ramjet
+![isentropic equation]({{ "assets/images/IMG_66E6BE82ADA6-1.jpeg" | relative_url }}){: .inline-image-r style="width: 300px"}
+Next, we use an ideal gas isentropic relationship involving the ratios of temperature and pressure to substitute out the exit temperature. We also use the equation for mass flow to substitute in. This gives us an expression for the outlet velocity we can substitute into the thrust equation.
+![thrust equation substitution]({{ "assets/images/IMG_13A25129DFC8-1.jpeg" | relative_url }}){: .inline-image-r style="width: 300px"}
 
-Possibily include:
-Reference to something that uses a ramjet 
-Ram effect and ram pressure
-converging and diverging nozzle analysis
-
-
-
-Talk about the Blackbird turbofan ramjet thingy, possibly the X-43, though this is a scramjet drone
-
-Ramjets are generally the most fuel efficient between Mach 3 and 5.
+### Changing Conditions
+The main way to affect a ramjet's performance is by altering the speed at which air flows into the engine. This affects the extent to which the air is compressed for use in the combustion chamber. Designing with this in mind is very important because under Mach 0.5, ramjets generate practically zero thrust. Another way to change performance and the complexity of the system is by operating the combustion chamber with either solid or liquid fuel. Operating with liquid fuel increases the complexity, requiring the use of a fuel pump, but allows changes in the amount of fuel provided, unlike solid fuel, where the amount of fuel provided remains constant. We can also modify the geometry of the nozzle and diffuser to change the velocities and pressures of the air as it moves through the system. Modifying the geometry of the diffuser can help to mitigate some of the problems that arise with changes in the velocity. Specifically, inlet buzz, which occurs when the shockwave moves out of the engine housing, causing critical failure.
