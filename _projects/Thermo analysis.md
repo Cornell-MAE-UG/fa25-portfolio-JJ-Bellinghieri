@@ -3,7 +3,7 @@ layout: project
 title: Analysis of a thermodynamic system
 description: Class project to analyze a scram jet engine from a themrodynamic perspective
 technologies: []
-image: /assets/images/Statics-2020-portfolio-project-43.jpg
+image: C:\Users\jjbel\fa25-portfolio-JJ-Bellinghieri\assets\images\RamJetdrawing.jpg
 ---
 
 
