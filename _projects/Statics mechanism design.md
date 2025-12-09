@@ -14,7 +14,9 @@ This is how I solved the problem:
 
 I first drew a possible design with everything in terms of variables. I then put all my variables in terms of L the length from the first pin. I then used equations to relate L to all the values I was intrested in and created a spreadsheet to display all the quanties for a given value of L.
 
-[Portfolio work]({{ "\assets\Statics_portfolio_work.pdf" | relative_url }}) in PDF format.
+[Portfolio work]({{ "https://cornell-mae-ug.github.io/fa25-portfolio-JJ-Bellinghieri/assets\Statics_portfolio_work.pdf" | relative_url }}) in PDF format.
+
+
 
 
 
