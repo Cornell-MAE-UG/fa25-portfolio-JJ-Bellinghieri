@@ -1,5 +1,11 @@
 ---
 
+layout: project
+title: Inline Separation of Spotted Lanternflies
+description: Class project to design a mechanism to address the problems caused by SLF in grape harvesting
+technologies: []
+image: C:\Users\jjbel\fa25-portfolio-JJ-Bellinghieri\assets\images\sorter.png
+
 fontsize: 11pt
 geometry: margin=1in
 papersize: letter
