@@ -63,7 +63,7 @@ Test conveyor belt with an effective sorting system attached to the conveyor
 - Our solution only mitigates the problem, but doesn’t handle the harmful effects SLF have on the vitality/productivity of grape vines. Could lead to reduced yields from harvests.
 - Volumetric flow rate of grapes on the conveyor belt.  If this is too high, it will be very hard to sort bugs underneath large amounts of grapes. Also, a challenge if grapes/bugs get smushed together.
 - May not have the right to modify the harvester
----
+
 
 ## Questions for the client
 
@@ -85,4 +85,4 @@ Test conveyor belt with an effective sorting system attached to the conveyor
 
 ## Figure
 
-![Figure 1: Proposed inline pneumatic sorting system]({{ "assets/images/sorter.png" | relative_url }}){ width=0.5\textwidth }
+({{ "assets/images/sorter.png" | relative_url }})![Figure 1: Proposed inline pneumatic sorting system]{ width=0.5\textwidth }
