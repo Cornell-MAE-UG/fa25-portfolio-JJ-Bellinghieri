@@ -20,7 +20,7 @@ header-includes:
 
 ---
 
-**Team:** Di-Vine Intervention **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape
+**Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape
 
 ---
 
