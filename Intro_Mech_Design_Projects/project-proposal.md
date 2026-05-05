@@ -1,6 +1,6 @@
 ---
 
-layout: 2250
+layout: Mech
 title: Inline Separation of Spotted Lanternflies
 description: Class project to design a mechanism to address the problems caused by SLF in grape harvesting
 technologies: []
