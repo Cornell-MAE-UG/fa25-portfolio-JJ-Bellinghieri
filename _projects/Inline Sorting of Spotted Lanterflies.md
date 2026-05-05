@@ -20,12 +20,12 @@ header-includes:
 ---
 
 <div class="gallery-container">
-<div class="2250-gallery">
-    {% for project in site.2250 %}
+<div class="Mech-gallery">
+    {% for project in site.Intro_Mech_Design_Projects %}
       <div class="gallery-item">
-        <a href="{{ 2250.url | relative_url }}">
-          <img src="{{ 2250.image | relative_url }}" alt="{{ 2250.title }}" />
-          <p>{{ 2250.title}}</p>
+        <a href="{{ Mech.url | relative_url }}">
+          <img src="{{ Mech.image | relative_url }}" alt="{{ Mech.title }}" />
+          <p>{{ Mech.title}}</p>
         </a>
       </div>
     {% endfor %}
