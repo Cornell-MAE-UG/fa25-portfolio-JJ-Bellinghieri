@@ -32,7 +32,7 @@ This was a class project completed to address the issues posed by SLF. My group 
 
 [First Prototype:](#first-prototype)
 
-Client report:
+[Client report:](#client-report)
 
 # Project Proposal:
 
@@ -306,6 +306,8 @@ system.
 -   Conveyor Speed: 0.5--1 in/sec
 -   Brush Speed: 450--500 RPM
 
+
+# client Report
 
 ## References
 - evokeAG. “Harvest Optimisation Technology to Remove Matter Other than Grape (MOG).” YouTube, 26 July 2021, https://www.youtube.com/watch?v=JEM50O9d-M8. 
