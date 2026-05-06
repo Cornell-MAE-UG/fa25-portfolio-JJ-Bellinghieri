@@ -95,6 +95,7 @@ Test conveyor belt with an effective sorting system attached to the conveyor
 ![Figure 1: Proposed inline pneumatic sorting system]({{ "assets/images/sorter.png" | relative_url }}){ width=0.5\textwidth }
 Proposed inline pneumatic sorting system
 
+---
 # First Prototype
 
 ## Contents
@@ -306,8 +307,31 @@ system.
 -   Conveyor Speed: 0.5--1 in/sec
 -   Brush Speed: 450--500 RPM
 
-
+---
 # client Report
+
+## 1. Context and Problem Statement
+Mechanical grape harvesting operates at industrial scales of approximately 2–3 tons per hour but unintentionally collects Spotted Lanternflies (SLF) along with harvested grapes. Even low contamination levels
+(approximately 1–2 insects per 1000g) can result in rejected loads due to quality control and regulatory
+concerns.
+Existing mitigation strategies such as manual sorting and post-harvest washing are not compatible with
+commercial throughput requirements. These approaches introduce significant processing delays, increase
+labor demand, and are incompatible with continuous harvesting operations.
+### 1.1 Design objective
+Develop a mechanical system for removing SLF during harvesting that preserves throughput and minimizes
+grape damage, and is compatible with both standalone operation and retrofit integration with existing
+conveyor-based harvesting systems.
+## 2. Final Prototype and Application
+A modular inline separation system was developed, integrating mechanical agitation and pneumatic separation
+to remove SLF during conveyor transport.
+### 2.1 System Architecture
+• Conveyor transport system for continuous material flow
+• Directed airflow subsystem for insect separation
+• Rotary brush subsystem for mechanical agitation of grape clusters
+As grapes travel along the conveyor, they pass beneath a rotating brush that dislodges attached insects. A
+directed airflow system then separates SLF based on their lower mass and higher aerodynamic sensitivity
+relative to grapes. Grapes continue to the collection trough while the SLF are diverted into a separate
+containment bin.
 
 ## References
 - evokeAG. “Harvest Optimisation Technology to Remove Matter Other than Grape (MOG).” YouTube, 26 July 2021, https://www.youtube.com/watch?v=JEM50O9d-M8. 
