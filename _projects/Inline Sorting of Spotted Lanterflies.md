@@ -314,16 +314,20 @@ system.
 Mechanical grape harvesting operates at industrial scales of approximately 2–3 tons per hour but unintentionally collects Spotted Lanternflies (SLF) along with harvested grapes. Even low contamination levels
 (approximately 1–2 insects per 1000g) can result in rejected loads due to quality control and regulatory
 concerns.
+
 Existing mitigation strategies such as manual sorting and post-harvest washing are not compatible with
 commercial throughput requirements. These approaches introduce significant processing delays, increase
 labor demand, and are incompatible with continuous harvesting operations.
+
 ### 1.1 Design objective
 Develop a mechanical system for removing SLF during harvesting that preserves throughput and minimizes
 grape damage, and is compatible with both standalone operation and retrofit integration with existing
 conveyor-based harvesting systems.
+
 ## 2. Final Prototype and Application
 A modular inline separation system was developed, integrating mechanical agitation and pneumatic separation
 to remove SLF during conveyor transport.
+
 ### 2.1 System Architecture
 • Conveyor transport system for continuous material flow
 • Directed airflow subsystem for insect separation
@@ -332,6 +336,59 @@ As grapes travel along the conveyor, they pass beneath a rotating brush that dis
 directed airflow system then separates SLF based on their lower mass and higher aerodynamic sensitivity
 relative to grapes. Grapes continue to the collection trough while the SLF are diverted into a separate
 containment bin.
+
+## 3. Conclusion and Recommendations
+The prototype demonstrates that inline mechanical and pneumatic separation can effectively reduce SLF
+contamination without interrupting throughput or damaging grapes.
+
+### 3.1 Recommendation
+• Proceed with iterative development and scaled validation.
+
+### 3.2 Recommended Next Steps:
+• Improve brush uniformity to ensure consistent contact across full conveyor width
+• Replace ad hoc airflow source with engineered compressed air manifold (target 5–10 m/s)
+• Integrate vacuum-based capture to prevent re-entrainment of dislodged insects
+• Conduct testing under higher throughput conditions representative of commercial harvesters
+The system demonstrates sufficient performance to justify further development toward field-scale validation,
+with improvements focused on consistency and scalability.
+
+## 4. Testing and Results
+Experimental testing was conducted using fresh grapes and representative SLF models to evaluate separation
+performance and fruit integrity.
+
+### 4.1 Key Performance Outcomes:
+• Average SLF removal efficiency: 72%
+• Observed variation in removal efficiency: 57–100% across conveyor width
+• Optimal operating condition: ∼500 RPM brush speed with high conveyor velocity and maximum airflow
+• Grape integrity: no significant observable damage under tested conditions
+Performance variation was primarily attributed to non-uniform brush contact across the conveyor width,
+indicating a need for improved mechanical consistency.
+
+## 5. Prototype and Assembly Details
+The prototype was constructed as a simplified conveyor-based system designed to replicate industrial
+harvesting flow.
+### 5.1 Structural Frame
+• Wooden base structure with supporting side walls
+• Central alignment for conveyor integration
+### 5.2 Conveyor System
+• Cardboard rollers mounted on wooden dowels
+• Paper-based belt reinforced with wax paper for durability
+• Manual actuation via 3D-printed end knobs
+### 5.3 Rotary Brush Subsystem
+• Machined shaft driven by handheld drill
+• Bristles mounted using custom 3D-printed shaft rings
+• Epoxy bonding used to prevent relative motion and improve stability
+### 5.4 Airflow Subsystem
+• Hair dryer used as a surrogate for compressed air system during testing
+• Positioned downstream of brush for immediate insect removal
+### 5.5 Collection System
+• Primary collection bin for grapes at conveyor exit
+• Secondary side-mounted bin for SLF capture
+### 5.6 Design Iterations
+• Replaced geared conveyor concept due to jamming and misalignment
+• Improved brush fixation to eliminate independent rotation
+• Adjusted brush height and alignment to optimize contact consistency
+
 
 ## References
 - evokeAG. “Harvest Optimisation Technology to Remove Matter Other than Grape (MOG).” YouTube, 26 July 2021, https://www.youtube.com/watch?v=JEM50O9d-M8. 
