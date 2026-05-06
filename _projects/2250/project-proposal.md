@@ -1,6 +1,6 @@
 ---
 
-layout: 2250
+layout: project
 title: Inline Separation of Spotted Lanternflies
 description: Class project to design a mechanism to address the problems caused by SLF in grape harvesting
 technologies: []
@@ -87,5 +87,3 @@ Test conveyor belt with an effective sorting system attached to the conveyor
 
 ![Figure 1: Proposed inline pneumatic sorting system]({{ "assets/images/sorter.png" | relative_url }}){ width=0.5\textwidth }
 Proposed inline pneumatic sorting system
-
-
