@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Inline Separation of Spotted Lanternflies
+title: MAE 2250 SLF Sorter
 description: Class project to design a mechanism to address the problems caused by SLF in grape harvesting
 technologies: []
 image: /assets/images/sorter.png
