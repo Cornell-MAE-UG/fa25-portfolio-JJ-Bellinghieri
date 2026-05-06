@@ -3,6 +3,7 @@ layout: project
 title: MAE 2250 SLF Sorter
 description: This was a class project completed to address the issues posed by SLF. My group chose to takcle the challenges faced by SLF during the grape harvesting process through the design of an inline sorting system.
 technologies: [Fusion 360, Machining]
+image: /assets/images/sorter.png
 
 
 fontsize: 11pt
@@ -25,6 +26,12 @@ header-includes:
 ### Project Description
 
 This was a class project completed to address the issues posed by SLF. My group chose to takcle the challenges faced by SLF during the grape harvesting process through the design of an inline sorting system.
+
+
+
+
+
+
 
 ### Table of Contents
 
