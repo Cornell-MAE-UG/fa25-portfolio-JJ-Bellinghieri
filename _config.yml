@@ -28,6 +28,7 @@ permalink: /:categories/:title/
 collections:
   pages:
     output: true
+  collections:
   projects:
     output: true
   intro_mech_design_projects:
