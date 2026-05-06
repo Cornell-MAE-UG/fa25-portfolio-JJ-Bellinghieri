@@ -391,8 +391,32 @@ harvesting flow.
 
 ## 6 Bill of Materials 
 
-![Bill of Materials]({{ "assets\images\Bill_of_materials.png" | relative_url }}){: .inline-image-r style="width: 450px"}
+![Bill of Materials]({{ "assets/images/Bill_of_materials.png" | relative_url }}){: .inline-image-r style="width: 450px"}
 
+### 6.1 Structural Components
+• Wooden base boards (2) – TDS
+• Wooden side walls (4) – TDS
+### 6.2 Conveyor System
+• Cardboard rollers (2) – TDS
+• Wooden dowels (2) – TDS
+• Paper conveyor belt with wax-paper coating – TDS
+• 3D-printed drive knobs (4) – RPL
+### 6.3 Brush System
+• Machined steel shaft – McMaster-Carr
+• Bristle material (brush segments) – McMaster-Carr
+• 3D-printed shaft mounting rings – RPL
+• Epoxy adhesive – TDS
+• Handheld drill (drive source) – Amazon
+### 6.4 Airflow System
+• Hair dryer (temporary airflow generation unit) – Dyson (self-funded; not charged to project budget)
+### 6.5 Collection System
+• 3D-printed SLF collection bin – RPL
+• Wooden mounting supports – TDS
+### 6.6 Miscellaneous Materials
+• Hot glue adhesive – TDS
+• Fasteners and general mounting hardware – TDS
+• Paper SLF test models – TDS
+• Grapes (experimental validation material) – Mac’s Cafe
 
 ## References
 - evokeAG. “Harvest Optimisation Technology to Remove Matter Other than Grape (MOG).” YouTube, 26 July 2021, https://www.youtube.com/watch?v=JEM50O9d-M8. 
