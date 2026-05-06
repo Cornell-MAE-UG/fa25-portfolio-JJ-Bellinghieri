@@ -389,6 +389,10 @@ harvesting flow.
 • Improved brush fixation to eliminate independent rotation
 • Adjusted brush height and alignment to optimize contact consistency
 
+## 6 Bill of Materials 
+
+![Bill of Materials]({{ "assets\images\Bill_of_materials.png" | relative_url }}){: .inline-image-r style="width: 450px"}
+
 
 ## References
 - evokeAG. “Harvest Optimisation Technology to Remove Matter Other than Grape (MOG).” YouTube, 26 July 2021, https://www.youtube.com/watch?v=JEM50O9d-M8. 
