@@ -310,6 +310,8 @@ system.
 ---
 # client Report
 
+![Final Prototype]({{"assets/images/Bill_of_materials.png" | relative_url }})
+
 ## 1. Context and Problem Statement
 Mechanical grape harvesting operates at industrial scales of approximately 2–3 tons per hour but unintentionally collects Spotted Lanternflies (SLF) along with harvested grapes. Even low contamination levels
 (approximately 1–2 insects per 1000g) can result in rejected loads due to quality control and regulatory
