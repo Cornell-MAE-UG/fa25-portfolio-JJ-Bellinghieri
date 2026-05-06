@@ -391,7 +391,7 @@ harvesting flow.
 
 ## 6 Bill of Materials 
 
-![Bill of Materials]({{ "assets/images/Bill_of_materials.png" | relative_url }}){: .inline-image-r style="width: 450px"}
+![Bill of Materials]({{ "assets/images/Bill_of_materials.png" | relative_url }})
 
 ### 6.1 Structural Components
 • Wooden base boards (2) – TDS
