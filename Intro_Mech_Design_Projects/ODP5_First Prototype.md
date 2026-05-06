@@ -1,6 +1,6 @@
 ---
 
-layout: Mech
+layout: 2250
 title: ODP5 First Prototype
 description: Class project to design a mechanism to address the problems caused by SLF in grape harvesting
 technologies: []
