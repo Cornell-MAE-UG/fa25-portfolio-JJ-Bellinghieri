@@ -105,7 +105,7 @@ Proposed inline pneumatic sorting system
 ---
 # First Prototype
 
-![First Prototype]({{"assets/images/First_prototype_2250.jpg" | relative_url }})
+![First Prototype]({{"assets/images/First_prototype_2250.jpg" | relative_url }}){style="width: 450px"}
 
 ## Contents
 
@@ -319,7 +319,7 @@ system.
 ---
 # client Report
 
-![Final Prototype]({{"assets/images/Final_prototype_2250.jpeg" | relative_url }})
+![Final Prototype]({{"assets/images/Final_prototype_2250.jpeg" | relative_url }}){style="width: 450px"}
 
 ## 1. Context and Problem Statement
 Mechanical grape harvesting operates at industrial scales of approximately 2–3 tons per hour but unintentionally collects Spotted Lanternflies (SLF) along with harvested grapes. Even low contamination levels
