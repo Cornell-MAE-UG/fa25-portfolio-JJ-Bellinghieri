@@ -11,7 +11,6 @@ This was a class project completed for MAE 3050 Introduction to Aeronautics to d
 <br>
 <br>
 <br>
-<br>
 
 ### Initial Plan
 Our initial plan was to design the glider so that we could achieve a glide angle that left our glider with 1 meter of height as a factor of saftey when it crossed the finish line to account for effects we couldn't consider in our calculations since landing before crossing 20 meters would lead to our glider being disqualified. This condition sets our minimum Coefficent of Lift over Coefficent of Drag at a value of 5.
