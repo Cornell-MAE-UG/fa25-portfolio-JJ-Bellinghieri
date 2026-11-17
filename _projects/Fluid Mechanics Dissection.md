@@ -4,6 +4,7 @@ title: Fluid Mechanics Dissection
 description: Class project to take apart a chainsaw and analyze a fluid component in it
 technologies: 
 image: /assets/images/ChainsawFMD.jpg
+order: 4
 
 fontsize: 11pt
 geometry: margin=1in

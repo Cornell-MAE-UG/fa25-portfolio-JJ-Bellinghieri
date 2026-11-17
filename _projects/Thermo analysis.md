@@ -4,6 +4,7 @@ title: Analysis of a Ramjet Engine
 description: Class project to analyze a scram jet engine from a themrodynamic perspective
 technologies: []
 image: /assets/images/RamJetdrawing.jpg
+order: 7
 ---
 
 

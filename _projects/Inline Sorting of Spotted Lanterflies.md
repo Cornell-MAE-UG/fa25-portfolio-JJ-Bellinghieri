@@ -4,6 +4,7 @@ title: Spotted Lantern Fly Inline Sorting System
 description: This was a class project completed to address the issues posed by SLF. My group chose to takcle the challenges faced by SLF during the grape harvesting process through the design of an inline sorting system.
 technologies: [Fusion 360, Machining]
 image: /assets/images/sorter.png
+order: 5
 
 
 fontsize: 11pt
