@@ -20,7 +20,7 @@ Aspiring engineering student with a strong foundation in communication and conce
 - **Cornell University**  
   *Bachelor of Science in Mechanical Engineering*  
   GPA: 3.81 | Graduation: May, 2028  
-  *Relavent Course Work*  
+  **Relavent Course Work**  
   MAE 2020 Statics and Mechanics of Solids  
   MAE 2030 Dynamics  
   MAE 2210 Thermodynamics  
