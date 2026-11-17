@@ -201,3 +201,9 @@ footer {
 }
 
 
+@media (max-width: 600px) {
+  .project-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
