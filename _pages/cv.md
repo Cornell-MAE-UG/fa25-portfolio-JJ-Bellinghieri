@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my Resume]({{ "\assets\images\JJ Bellinghieri Mechanical Engineering Intern.pdf" | relative_url }}) in PDF format.
+[Download my Resume]({{ "\assets\JJ Bellinghieri Mechanical Engineering Intern.pdf" | relative_url }}) in PDF format.
 
 
 **Email:** [jab922@cornell.edu](mailto:jab922@cornell.edu) | | | **Phone:** +610 299 6751
@@ -38,6 +38,6 @@ Aspiring engineering student with a strong foundation in communication and conce
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360  
-- **Programming:** Python 
-- **Tools:** Oxyfuel cutting  
+- **Software:** Autodesk Fusion 360, SOLIDWORKS, Ansys  
+- **Programming:** MatLab, Python 
+- **Tools:** Machining, Oxyfuel cutting  
