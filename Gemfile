@@ -2,6 +2,7 @@
 
 source "https://rubygems.org"
 
+gem "csv"
 gem "kramdown-parser-gfm"
 
 gem "jekyll-include-cache"
