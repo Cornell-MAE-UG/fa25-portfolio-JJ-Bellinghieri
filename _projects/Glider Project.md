@@ -23,4 +23,13 @@ Our initial airfoil analysis in xflr5 consisted of 6 airfoils labled for use in 
 <br>
 <br>
 <br>
-![sd7037 diagram]({{ "/assets/images/SD7037.png" | relative_url }}){: .inline-image-r style="width: 450px"}Shortly after picking this airfoil we realized that the drag coefficent for this airfoil would not include 3d effects such as drag caused by wing tip vortices or parasitic drag from other parts of the glider. This led us to revise our airfoil choice to sd7037 which had a higher CD/CL and exhibited gentle stall behavior which would allow our glider to recover more easily in the event of stall.
+<br>
+<br>
+<br>
+![sd7037 diagram]({{ "/assets/images/SD7037.png" | relative_url }}){: .inline-image-r style="width: 450px"}Shortly after picking this airfoil we realized that the drag coefficent for this airfoil would not include 3d effects such as drag caused by wing tip vortices or parasitic drag from other parts of the glider. This led us to revise our airfoil choice to sd7037 at a Reynolds number of 40,000 which had a higher CD/CL and exhibited gentle stall behavior which would allow our glider to recover more easily in the event of stall.
+
+### Wing and Tail Sizing
+To size our wing we first rearanged the eqaution for the lift coeffiecnt to solve for the wing surface area in terms of the weight, lift coefficent, airspeed veloctiy, and density.![Wing Area Equation]({{ "/assets/images/Wing Area equation.png" | relative_url }}){: .inline-image-r style="width: 100px"} We were then able to get a surface area of 0.18 m^2 by using an estimated weight of 102 grams, the density of air at sea level, our chosen value of the lift coefficent from the graph, and our target velocity from our reynolds number.
+
+
+After sizing the wing
