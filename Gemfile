@@ -3,6 +3,7 @@
 source "https://rubygems.org"
 
 gem "csv"
+gem "bigdecimal"
 gem "kramdown-parser-gfm"
 
 gem "jekyll-include-cache"
