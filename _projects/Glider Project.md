@@ -22,4 +22,5 @@ Our initial airfoil analysis in xflr5 consisted of 6 airfoils labled for use in 
 <br>
 <br>
 <br>
+<br>
 ![sd7037 diagram]({{ "/assets/images/SD7037.png" | relative_url }}){: .inline-image-r style="width: 450px"}Shortly after picking this airfoil we realized that the drag coefficent for this airfoil would not include 3d effects such as drag caused by wing tip vortices or parasitic drag from other parts of the glider. This led us to revise our airfoil choice to sd7037 which had a higher CD/CL and exhibited gentle stall behavior which would allow our glider to recover more easily in the event of stall.
