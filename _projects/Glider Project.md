@@ -2,7 +2,7 @@
 layout: project
 title: Glider Competition
 description: Class project to design a glider to fly 20 meters as slowly as possible
-technologies: [Fusion 360, xflr5, SOLIDWORKS]
+technologies: [Fusion 360, xflr5, SOLIDWORKS, Laser Cutting]
 image: /assets/images/Glider Final CAD.png
 order: 1
 ---
@@ -68,14 +68,38 @@ These values were then plugged into static margin equations to calculate the gli
 </div>
 
 
-
+---
 # First prototype 
+![Inital Glider CAD]({{ "/assets/images/InitialGliderCAD.png" | relative_url }}){: .inline-image-r style="width: 300px"}
 
 
-### Manufacturing
+### CAD  
+To begin construction of our first prototype my first step was to create a low detail CAD design so that our group could decide on manufacturing methods and how we planned to assemble the glider. After completing the low detail CAD we decided to laser cut the ribs with a hole for a spar to attach them to the main body of the glider. It was also at this point we chose to use flat plats for our tail as an approximation of a symetric airfoil so we could speed up our manufacturing time allowing us to have an earlier test flight and more time to iterate on our design based off our results.
+{: .indent}
+
+
+### Manufacturing and Assembly
+The first step in our manufacturing process was to laser cut the ribs for our wing from sheets of balsa wood. To do this I converted our 3D CAD of the ribs into a 2D DXF file that we then sent to be laser cut. This is also where encountered our first issue. The laser cutter we used had a larger kerf than expected which led to our ribs being loose fitting on our spar. We addressed this issue through wrapping the spots on the spar where we planned to attach the ribs with painters tape. This mostly fixed our fit issue but still didn't ensure that all the ribs were properly aligned. After attaching the ribs to the spar we then wrapped them in tissue paper giving us our wing which we then attached to the fusselage of the glider.
+{: .indent}
+<div class="image-row">
+  <figure>
+    <img src="{{ '/assets/images/Laser cut ribs.png' | relative_url }}" alt="Laser cut ribs">
+    <figcaption>Laser cut ribs</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ '/assets/images/1st Glider wing.png' | relative_url }}" alt="1st Glider wing">
+    <figcaption>Prototype Glider wing during assembly</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ '/assets/images/Glider Prototype.png' | relative_url }}" alt="Glider 1st Prototype">
+    <figcaption>Fully assembled first glider prototype</figcaption>
+  </figure>
+</div>
 
 
 ### Test Flight one and Design iterations
 
-
+---
 # Final Results

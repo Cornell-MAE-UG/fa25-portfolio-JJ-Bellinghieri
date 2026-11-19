@@ -1,6 +1,6 @@
 ---
 layout: project
-title: System Dynamics System Analysis
+title: Control Surface System Analysis
 description: Class project to analyze a system
 technologies: []
 image: 
