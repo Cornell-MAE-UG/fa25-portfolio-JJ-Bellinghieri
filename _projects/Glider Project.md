@@ -17,11 +17,11 @@ This was a class project completed for MAE 3050 Introduction to Aeronautics to d
   
 ### Table of Contents
 
-[Preliminary Analysis:](#Preliminary-Analysis)
+[Preliminary Analysis:](#preliminary-analysis)
 
 [First Prototype:](#first-prototype)
 
-[Final Results:](#Final-Results)
+[Final Results:](#final-results)
 
 ---
 # Preliminary Analysis
@@ -53,10 +53,20 @@ After sizing the wing we were able to move onto sizing the tail. To size the tai
 
 
 ### Static Margin Calculations
-These values were then plugged into static margin equations to calculate the gliders aerodynamic center and to place the gliders center of gravity. After verifying our calculations in xflr5 our initial calculations had placed the center of gravity too far forward leading to a negative static margin at all positive angles of attack after recalculating we moved our center of gravity to 0.08m behind the leading edge of the wing which gave no pitching moment at an angle of attack of 2.5 degrees and a CL/CD of 9.781 which was above our minimum value of 5 we set.
+These values were then plugged into static margin equations to calculate the gliders aerodynamic center and to place the gliders center of gravity. After verifying our calculations in xflr5 our initial calculations had placed the center of gravity too far forward leading to a negative static margin at all positive angles of attack after recalculating we moved our center of gravity to 0.08m behind the leading edge of the wing which gave no pitching moment at an angle of attack of 2.5 degrees and a CL/CD of 9.781 which was above our minimum value of 5 we set to ensure the glider crossed the 20 meter mark.
 {: .indent}
-[3D View of Glider]({{ "/assets/images/3d view.png" | relative_url }}){: .inline-image-r style="width: 200px"}
-[Moment coefficent vs AOA]({{ "/assets/images/new cm vs alpha.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+<div class="image-row">
+  <figure>
+    <img src="{{ '/assets/images/3d view.png' | relative_url }}" alt="3D View of Glider">
+    <figcaption>3D View of Glider</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ '/assets/images/new cm vs alpha.png' | relative_url }}" alt="Moment coefficient vs AOA">
+    <figcaption>Moment Coefficient vs AOA</figcaption>
+  </figure>
+</div>
+
 
 
 # First prototype 

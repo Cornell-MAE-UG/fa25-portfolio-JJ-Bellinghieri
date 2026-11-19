@@ -131,6 +131,31 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.image-row figure {
+    margin: 0;
+    text-align: center;
+}
+
+.image-row img {
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.image-row figcaption {
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+    font-style: italic;
+}
 
 .gallery-container {
   display: flex;
