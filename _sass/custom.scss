@@ -138,6 +138,10 @@ footer {
   margin: auto;
 }
 
+.indent {
+    text-indent: 40px !important;
+}
+
 .project-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
