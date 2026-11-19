@@ -48,11 +48,15 @@ To size our wing we first rearanged the eqaution for the lift coeffiecnt to solv
 {: .indent}
 
 
-After sizing the wing we were able to move onto sizing the tail. To size the tail we used sailplane coefficents from Raymer with a CHT of 0.5 and a CVT of 0.02. We also chose the maximum fuselage length of 0.9 meters that we could have at this point to reduce the required surface area for our tails since the amount of tissue paper we would have to cover our wings was going to be a limiting factor in our design. After plugging these values into our equations to size the tail ![Tail Area Equation]({{ "/assets/images/Tail sizing eqs.png" | relative_url }}){: .inline-image-r style="width: 200px"} we reached a result of 0.0324 m^2 for the horizontal stabilizer and 0.0072 m^2 for our vertical stabilizer for a tail arm of 0.5 meters with aspect ratios of 4 and 1.5 respectivley.
+After sizing the wing we were able to move onto sizing the tail. To size the tail we used sailplane coefficents from Raymer with a CHT of 0.5 and a CVT of 0.02. We also chose the maximum fuselage length of 0.9 meters while sizing our tail. This allowed us to reduce the required surface area for our tails by providing the maximum lever arm which was important to us since we expected the amount of tissue paper we would have to cover our wings was going to be a limiting factor in our design. After plugging these values into our equations to size the tail ![Tail Area Equation]({{ "/assets/images/Tail sizing eqs.png" | relative_url }}){: .inline-image-r style="width: 200px"} we reached a result of 0.0324 m^2 for the horizontal stabilizer and 0.0072 m^2 for our vertical stabilizer for a tail arm of 0.5 meters with aspect ratios of 4 and 1.5 respectivley.
 {: .indent}
 
 
 ### Static Margin Calculations
+These values were then plugged into static margin equations to calculate the gliders aerodynamic center and to place the gliders center of gravity. After verifying our calculations in xflr5 our initial calculations had placed the center of gravity too far forward leading to a negative static margin at all positive angles of attack after recalculating we moved our center of gravity to 0.08m behind the leading edge of the wing which gave no pitching moment at an angle of attack of 2.5 degrees and a CL/CD of 9.781 which was above our minimum value of 5 we set.
+{: .indent}
+[3D View of Glider]({{ "/assets/images/3d view.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+[Moment coefficent vs AOA]({{ "/assets/images/new cm vs alpha.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 
 # First prototype 
