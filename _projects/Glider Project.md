@@ -21,7 +21,7 @@ This was a class project completed for MAE 3050 Introduction to Aeronautics to d
 
 [First Prototype:](#first-prototype)
 
-[Final Results:](#final-results)
+[Final Design:](#final-design)
 
 ---
 # Preliminary Analysis
@@ -100,14 +100,25 @@ The first step in our manufacturing process was to laser cut the ribs for our wi
 
 
 ### Test Flight Results and Design Iterations
-During the test flight
+During the test flight our glider flew for a short distance before hitting the ground. From our flights we think our glide angle is too steep which likley is from the choice to use a flat plate for the horizontal stablizer instead of the airfoil we did the calculations with. Another likley cause is the gap we had to leave in the middle of our wing due to damage during assembly. To fix these issues and other issues we had during assembly we plan on adding a second spar to hold our ribs together as well as closing the gap in the middle of our wing by cutting extra ribs.
 {: .indent}
 
 <div style="text-align: center;">
-  <video controls preload="metadata" style="width: 70%; max-width: 800px;">
+  <video controls preload="metadata" style="width: 70%; max-height: 500px;">
     <source src="{{ '/assets/Videos/GliderTestFlight.mp4' | relative_url }}" type="video/mp4">
   </video>
 </div>
 
 ---
-# Final Results
+# Final Design
+
+
+### Final CAD
+After deciding on the changes we needed to make following our test flight I made a final version of our design in Fusion 360
+![Final Glider CAD]({{ "/assets/images/Glider Final CAD.png" | relative_url }}){: .inline-image-c style="width: 300px"}
+
+
+### Final Glider
+
+
+### Results and Future improvements
