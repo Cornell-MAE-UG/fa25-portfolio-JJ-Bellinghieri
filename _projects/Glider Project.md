@@ -104,10 +104,10 @@ During the test flight
 {: .indent}
 
 <div style="text-align: center;">
-  <video controls width="70%">
+  <video controls preload="metadata" style="width: 70%; max-width: 800px;">
     <source src="{{ '/assets/Videos/GliderTestFlight.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support this video.
   </video>
 </div>
+
 ---
 # Final Results
