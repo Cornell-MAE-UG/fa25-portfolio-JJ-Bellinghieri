@@ -79,9 +79,9 @@ To begin construction of our first prototype my first step was to create a low d
 
 
 ### Manufacturing and Assembly
-The first step in our manufacturing process was to laser cut the ribs for our wing from sheets of balsa wood. To do this I converted our 3D CAD of the ribs into a 2D DXF file that we then sent to be laser cut. This is also where encountered our first issue. The laser cutter we used had a larger kerf than expected which led to our ribs being loose fitting on our spar. We addressed this issue through wrapping the spots on the spar where we planned to attach the ribs with painters tape. This mostly fixed our fit issue but still didn't ensure that all the ribs were properly aligned. After attaching the ribs to the spar we then wrapped them in tissue paper giving us our wing which we then attached to the fusselage of the glider.
+The first step in our manufacturing process was to laser cut the ribs for our wing from sheets of balsa wood. To do this I converted our 3D CAD of the ribs into a 2D DXF file that we then sent to be laser cut. This is also where encountered our first issue. The laser cutter we used had a larger kerf than expected which led to our ribs being loose fitting on our spar. We addressed this issue through wrapping the spots on the spar where we planned to attach the ribs with painters tape. This mostly fixed our fit issue but still didn't ensure that all the ribs were properly aligned. During this process we also broke one of our ribs which caused us to have to leave a gap in the middle of our wing. After attaching the ribs to the spar we then wrapped them in tissue paper giving us our wing which we then attached to the fusselage of the glider. Finally we added modeling clay to the nose to move our center of gravity to our calculated location.
 {: .indent}
-<div class="image-row">
+<div class="image-row-three">
   <figure>
     <img src="{{ '/assets/images/Laser cut ribs.png' | relative_url }}" alt="Laser cut ribs">
     <figcaption>Laser cut ribs</figcaption>
@@ -99,7 +99,15 @@ The first step in our manufacturing process was to laser cut the ribs for our wi
 </div>
 
 
-### Test Flight one and Design iterations
+### Test Flight Results and Design Iterations
+During the test flight
+{: .indent}
 
+<div style="text-align: center;">
+  <video controls width="70%">
+    <source src="{{ '/assets/Videos/GliderTestFlight.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support this video.
+  </video>
+</div>
 ---
 # Final Results
