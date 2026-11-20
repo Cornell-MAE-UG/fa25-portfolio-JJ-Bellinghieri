@@ -8,6 +8,7 @@ order: 1
 ---
 ### Project Description 
 This was a class project completed for MAE 3050 Introduction to Aeronautics to design and build a glider. The glider had to be designed to be launchable from a standard spring powered launcher at a height of 5 meters. The goal of the project was to make the glider fly 20 meters as slowly as possible.
+{: .indent}
 <br>
 <br>
 <br>
@@ -115,6 +116,7 @@ During the test flight our glider flew for a short distance before hitting the g
 
 ### Final CAD
 After deciding on the changes we needed to make following our test flight I made a final version of our design in Fusion 360
+{: .indent}
 ![Final Glider CAD]({{ "/assets/images/Glider Final CAD.png" | relative_url }}){: .inline-image-c style="width: 300px"}
 
 
