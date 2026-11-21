@@ -8,6 +8,7 @@ gem "kramdown-parser-gfm"
 
 gem "jekyll-include-cache"
 gem "jekyll-feed"
+gem "jekyll-sitemap"
 
 gem "github-pages", group: :jekyll_plugins
 
