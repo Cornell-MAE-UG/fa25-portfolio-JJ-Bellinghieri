@@ -16,8 +16,17 @@ This was a class project completed for MAE 3150 Engineering Simulations and Desi
 ---
 ### Table of Contents
 
-[Initial Geometry and Analysis:](#preliminary-analysis)
+[Initial Geometry and Analysis:](#initial-geometry-and-analysis:)
 
 [Acsessibilty Redesign:](#first-prototype)
 
 [Parametric optimization:](#final-design)
+
+
+# Initial Geometry and Analysis:
+
+
+![Initial CAD]({{ "/assets/images/Bike Frame Initial CAD.png" | relative_url }}){: .inline-image-r style="width: 250px"}
+### Creating the Model
+The first step to complete my initial analysis was to create my model. To begin I turned the given geometry into a CAD model in Fusion 360. Then I imported the geometry into Ansys and began by setting the essential boundary conditions for the model I chose to set the head tube and the intersection of the seat stay and chain stay as having zero displacement boundary conditions.
+{: .indent}
